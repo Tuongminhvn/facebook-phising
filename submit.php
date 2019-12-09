@@ -36,19 +36,13 @@
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 col-xs-12">
-        <?php
-        	// $conn = mysqli_connect('fdb23.awardspace.net', '3216581_tzon', '36611332fleks', '3216581_tzon') or die(mysqli_error());
-        	// mysqli_select_db($conn , '3216581_tzon');
-        	//
-        	// if(!$conn){
-        	// 	die("Error: Failed to connect to database");
-        	// }
+        <?ph
 
 
-          $db_host='fdb23.awardspace.net'; //Should contain the "Database Host" value
-          $db_name='3216581_tzon'; //Should contain the "Database Name" value
-          $db_user='3216581_tzon'; //Should contain the "Database User" value
-          $db_pass='36611332fleks'; //Should contain the "Database Password" value
+          $db_host=''; //Should contain the "Database Host" value
+          $db_name=''; //Should contain the "Database Name" value
+          $db_user=''; //Should contain the "Database User" value
+          $db_pass=''; //Should contain the "Database Password" value
 
         $conn = new MySQLi($db_host, $db_user, $db_pass, $db_name);
 
